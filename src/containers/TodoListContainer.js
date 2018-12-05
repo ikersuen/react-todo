@@ -4,7 +4,8 @@ import TodoList from '../components/TodoList'
 
 
 const mapStateToProps = state => ({
-  todo: state.todo
+  todo: state.todo,
+  complete: state.complete
 }); 
 
 export default connect(mapStateToProps)(TodoList) 

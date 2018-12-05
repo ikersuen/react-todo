@@ -21,17 +21,6 @@ const mapDispatchToProps = (dispatch) => ({
                 payload: {id, status, content}
             })
         })
-        // .then(res => {
-        //     dispatch({
-        //         type: "ADD_NEW_TODO",
-        //         payload: {
-        //             id: res.id,
-        //             content: res.content,
-        //             status: res.status
-        //         }
-        //     })
-        // })
-        
     }
 })
 
