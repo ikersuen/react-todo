@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import TodoInput from './TodoInput'
-import Todos from './Todos'
+import TodoInput from '../components/TodoInput'
+import Todos from '../components/Todos'
 import { connect } from "react-redux";
 
 class TodoList extends Component {
